@@ -1,4 +1,4 @@
-name: Deploy a workout webpp in github pages
+name: Deploy a workout webapp in github pages
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Publish dice game
+      - name: Publish Map Webapp
         uses: peaceiris/actions-gh-pages@v3
         if: always()
         with:
